@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  background-color: aquamarine;
+  flex: 1 1 100%;
+}
+aside {
+  background-color:rgb(153, 192, 95);
+  flex: 0 0 250px;
+}
+article {
+  background-color:rgb(221, 94, 94);
+  flex: 1 1 0;
+}
+footer {
+  background-color:rgb(153, 192, 95);
+  flex: 0 0 250px;
+}
+div {
+background-color: orangered;
+flex: 1 1 100%;
+}
