@@ -4,20 +4,26 @@
 main {
   display: flex;
   flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
 }
 header {
   background-color: aquamarine;
   flex: 1 1 100%;
+  padding: 10px 15px;
 }
 aside {
   background-color:rgb(153, 192, 95);
   flex: 0 0 250px;
+  padding: 10px 15px;
 }
 article {
   background-color:rgb(221, 94, 94);
   flex: 1 1 0;
+  padding: 10px 15px;
 }
 footer {
 background-color: orangered;
 flex: 1 1 100%;
+padding: 10px 15px;
 }
