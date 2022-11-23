@@ -28,14 +28,14 @@ footer {
   padding: 10px 15px;
 }
 section {
-  background-color: white;
   display: flex;
   flex-wrap: wrap;
+  background-color: white;
   margin: 15px;
   margin: 0 auto;
 }
 section div {
-  max-width: 200px;
+  max-width:150px;
   justify-content: space-around;
   text-align: left;
   margin: 10px;
